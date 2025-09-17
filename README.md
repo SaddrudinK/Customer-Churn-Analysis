@@ -12,31 +12,40 @@ The project covers data exploration, preprocessing, model building, evaluation, 
 
 Folder Structure
 Telco Customer Churn Analysis/
-│
-├── data/               # Dataset CSV file
-├── scripts/            # Python script for entire project
-├── reports/            # Generated charts and model reports (PNG)
-└── README.md           # Project documentation
+
+data/               # Dataset CSV file
+scripts/            # Python script for entire project
+reports/            # Generated charts and model reports (PNG)
+README.md           # Project documentation
 
 Features
 
-Data cleaning and preprocessing
-Handling missing values and categorical encoding
-Feature scaling and selection
-Random Forest model for churn prediction
-Model evaluation using accuracy, confusion matrix, precision, and recall
-Visualizations including churn distribution, feature importance, and correlation matrix
+Data cleaning and preprocessing, 
+
+Handling missing values and categorical encoding, 
+
+Feature scaling and selection, 
+
+Random Forest model for churn prediction, 
+
+Model evaluation using accuracy, confusion matrix, precision, and recall, 
+
+Visualizations including churn distribution, feature importance, and correlation matrix. 
 
 How to Run
 
-Clone the repository: git clone <repository-url>
+Clone the repository: git clone <https://github.com/SaddrudinK/Customer-Churn-Analysis>
+
 Place the dataset in the data/ folder.
-Run the Python script: python scripts/Customer_Churn.py
+
+Run the Python script: python scripts/Customer_Churn.py.
+
 Check the reports/ folder for charts and model metrics.
 
 Results
 
 Model Accuracy: ~78%
+
 Confusion matrix and feature importance charts are saved in reports/
 
 License
